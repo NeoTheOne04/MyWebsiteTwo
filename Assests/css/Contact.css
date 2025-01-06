@@ -1,0 +1,72 @@
+#nest{
+    text-align: center;
+        display: grid;
+        max-width: 500px;
+    margin-left: 350px;
+    
+        grid-template-columns: repeat(6, auto);
+        grid-template-rows: repeat(4, minmax(40px, auto));
+        grid-template-areas: 
+      "lefside leftside side side side side"
+      "lefside leftside side side side side"
+      "lefside leftside rightside rightside rightside rightside"
+      "lefside leftside rightside rightside rightside rightside"
+        ;
+}
+#sidee{
+    grid-area: leftside;
+    margin: 20px;
+   
+    min-width: 300px;
+    min-height: 200px;
+    border-radius: 12px;
+    border-color: #00BF63;
+}
+aside{
+    grid-area: side;
+    margin: 20px;
+    min-width: 300px;
+    margin-left: 400px;
+    margin-right: -100px;
+    border-style: double;
+    border-radius: 12px;
+    border-color: #00BF63;
+}
+#sideee{
+    grid-area: rightside;
+    margin: 20px;
+    min-width: 300px;
+    margin-left: 400px;
+    margin-right: -100px;
+    border-style: double;
+    border-radius: 12px;
+   border-color: #00BF63;
+}
+table {
+    width: 200%;
+    border-collapse: collapse;
+   margin-left: -170px;
+ 
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color:  #00BF63;
+    font-weight: bold;
+}
+
+tr {
+    background-color:black;
+}
+li{
+    text-align: left;
+}
+main{
+    height: 300px;
+}
+

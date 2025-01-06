@@ -1,0 +1,40 @@
+#nest{
+    text-align: center;
+        display: grid;
+        max-width: 500px;
+    margin-left: 350px;
+    
+        grid-template-columns: repeat(6, auto);
+        grid-template-rows: repeat(4, minmax(40px, auto));
+        grid-template-areas: 
+      "lefside leftside side side rightside rightside"
+      "lefside leftside side side rightside rightside"
+      "lefside leftside side side rightside rightside"
+      "lefside leftside side side rightside rightside"
+        ;
+}
+#sidee{
+    grid-area: leftside;
+    margin: 20px;
+    border-style: double;
+    min-width: 300px;
+    min-height: 200px;
+    border-radius: 12px;
+    border-color: #00BF63;
+}
+aside{
+    grid-area: side;
+    margin: 20px;
+    min-width: 300px;
+    border-style: double;
+    border-radius: 12px;
+    border-color: #00BF63;
+}
+#sideee{
+    grid-area: rightside;
+    margin: 20px;
+    min-width: 300px;
+    border-style: double;
+    border-radius: 12px;
+   border-color: #00BF63;
+}
